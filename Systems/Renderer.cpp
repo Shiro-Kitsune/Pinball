@@ -1,11 +1,11 @@
 #include "stdafx.h"
 #include "Renderer.h"
-#include "EntityManager.h"
-#include "Entity.h"
-#include "RenderingComponent.h"
-#include "TextComponent.h"
-#include "Transform.h"
-#include "Background.h"
+#include "../EntityManager.h"
+#include "../Entity.h"
+#include "../Components/RenderingComponent.h"
+#include "../Components/TextComponent.h"
+#include "../Components/Transform.h"
+#include "../Components/Background.h"
 
 void Renderer::Render(const EntityManager& entityManager) const
 {
