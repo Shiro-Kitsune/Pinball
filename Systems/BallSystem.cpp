@@ -1,12 +1,12 @@
 #include "stdafx.h"
 #include "BallSystem.h"
-#include "EntityManager.h"
-#include "Entity.h"
-#include "GameState.h"
+#include "../EntityManager.h"
+#include "../Entity.h"
+#include "../States/GameState.h"
 #include "BallComponent.h"
 #include "Transform.h"
-#include "Event.h"
-#include "RigidBody2D.h"
+#include "../Events/Event.h"
+#include "../Components/RigidBody2D.h"
 
 void BallSystem::Update(float deltaTime, GameState& gameState)
 {
