@@ -1,9 +1,9 @@
 #include "stdafx.h"
 #include "PauseGameState.h"
-#include "UIButtonSystem.h"
-#include "GameEngine.h"
+#include "../Systems/UIButtonSystem.h"
+#include "../GameEngine.h"
 #include "StartMenuState.h"
-#include "Entity.h"
+#include "../Entity.h"
 
 PauseGameState PauseGameState::m_pauseState;
 
