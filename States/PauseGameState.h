@@ -1,7 +1,7 @@
 #pragma once
 
 #include "GameState.h"
-#include "System.h"
+#include "../Systems/System.h"
 
 class PauseGameState : public GameState
 {
