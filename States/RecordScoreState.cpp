@@ -1,8 +1,8 @@
 #include "stdafx.h"
 #include "RecordScoreState.h"
-#include "GameEngine.h"
-#include "Entity.h"
-#include "UIButtonSystem.h"
+#include "../GameEngine.h"
+#include "../Entity.h"
+#include "../Systems/UIButtonSystem.h"
 
 RecordScoreState RecordScoreState::m_scoreState;
 
