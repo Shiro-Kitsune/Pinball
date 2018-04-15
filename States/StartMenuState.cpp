@@ -1,12 +1,12 @@
 #include "stdafx.h"
 #include "StartMenuState.h"
-#include "GameEngine.h"
+#include "../GameEngine.h"
 #include "IntroGameState.h"
 #include "RecordScoreState.h"
-#include "Entity.h"
-#include "Event.h"
-#include "System.h"
-#include "UIButtonSystem.h"
+#include "../Entity.h"
+#include "../Events/Event.h"
+#include "../Systems/System.h"
+#include "../Systems/UIButtonSystem.h"
 
 StartMenuState StartMenuState::m_startMenuState;
 
