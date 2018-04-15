@@ -5,7 +5,6 @@
 #include "RecordScoreState.h"
 #include "../Entity.h"
 #include "../Events/Event.h"
-#include "../Systems/System.h"
 #include "../Systems/UIButtonSystem.h"
 
 StartMenuState StartMenuState::m_startMenuState;
