@@ -1,8 +1,8 @@
 #include "stdafx.h"
 #include "TextUpdateSystem.h"
-#include "GameState.h"
-#include "Entity.h"
-#include "TextComponent.h"
+#include "../States/GameState.h"
+#include "../Entity.h"
+#include "../Components/TextComponent.h"
 
 void TextUpdateSystem::Init(GameState & gameState)
 {
