@@ -1,12 +1,12 @@
 #include "stdafx.h"
 #include "TargetSystem.h"
-#include "EntityManager.h"
-#include "EventManager.h"
-#include "GameState.h"
-#include "Entity.h"
-#include "TargetComponent.h"
-#include "BallComponent.h"
-#include "RenderingComponent.h"
+#include "../EntityManager.h"
+#include "../EventManager.h"
+#include "../States/GameState.h"
+#include "../Entity.h"
+#include "../Components/TargetComponent.h"
+#include "../Components/BallComponent.h"
+#include "../Components/RenderingComponent.h"
 
 void TargetSystem::Update(float deltaTime, GameState & gameState)
 {
