@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../Events/Collision.h"
-#include "../Components/Component.h"
+#include "Events/Collision.h"
+#include "Components/Component.h"
 
 class Entity
 {
