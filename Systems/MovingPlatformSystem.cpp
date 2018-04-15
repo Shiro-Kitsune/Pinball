@@ -1,11 +1,11 @@
 #include "stdafx.h"
 #include "MovingPlatformSystem.h"
-#include "EntityManager.h"
-#include "GameState.h"
-#include "Entity.h"
-#include "MovingPlatformComponent.h"
-#include "RigidBody2D.h"
-#include "Transform.h"
+#include "../EntityManager.h"
+#include "../States/GameState.h"
+#include "../Entity.h"
+#include "../Components/MovingPlatformComponent.h"
+#include "../Components/RigidBody2D.h"
+#include "../Components/Transform.h"
 
 void MovingPlatformSystem::Update(float deltaTime, GameState & gameState)
 {
