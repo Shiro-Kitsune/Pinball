@@ -1,10 +1,10 @@
 #include "stdafx.h"
 #include "PhysicsSystem.h"
-#include "Entity.h"
-#include "EntityManager.h"
-#include "GameState.h"
-#include "RigidBody2D.h"
-#include "Transform.h"
+#include "../Entity.h"
+#include "../EntityManager.h"
+#include "../States/GameState.h"
+#include "../Components/RigidBody2D.h"
+#include "../Components/Transform.h"
 
 const Vector2D PhysicsSystem::GRAVITY(0.0f, -80.9f);
 
