@@ -1,8 +1,8 @@
 #include "stdafx.h"
 #include "IntroGameState.h"
-#include "GameEngine.h"
+#include "../GameEngine.h"
 #include "PlayGameState.h"
-#include "Entity.h"
+#include "../Entity.h"
 
 IntroGameState IntroGameState::m_introState;
 
