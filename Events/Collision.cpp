@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "Collision.h"
-#include "Entity.h"
+#include "../Entity.h"
 
 Collision::Collision(std::shared_ptr<Entity> entity)
 {
