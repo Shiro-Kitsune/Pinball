@@ -1,9 +1,9 @@
 #include "stdafx.h"
 #include "FlipperSystem.h"
-#include "FlipperComponent.h"
-#include "EntityManager.h"
-#include "GameState.h"
-#include "Entity.h"
+#include "../Components/FlipperComponent.h"
+#include "../EntityManager.h"
+#include "../States/GameState.h"
+#include "../Entity.h"
 #include "Transform.h"
 
 void FlipperSystem::Update(float deltaTime, GameState & gameState)
