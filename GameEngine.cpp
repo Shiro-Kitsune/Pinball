@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "GameEngine.h"
-#include "GameState.h"
-#include "StartMenuState.h"
+#include "../States/GameState.h"
+#include "../States/StartMenuState.h"
 
 void GameEngine::Init()
 {
