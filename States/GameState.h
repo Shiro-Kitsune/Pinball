@@ -1,9 +1,9 @@
 #pragma once
 
-#include "Renderer.h"
-#include "EntityManager.h"
-#include "EntityFactory.h"
-#include "EventManager.h"
+#include "../Systems/Renderer.h"
+#include "../EntityManager.h"
+#include "../EntityFactory.h"
+#include "../EventManager.h"
 
 class GameEngine;
 
