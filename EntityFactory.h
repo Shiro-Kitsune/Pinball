@@ -1,6 +1,6 @@
 #pragma once
 
-#include "FlipperComponent.h"
+#include "../Components/FlipperComponent.h"
 class Entity;
 enum class TargetType;
 enum class FlipperComponent::FlipperSide;
