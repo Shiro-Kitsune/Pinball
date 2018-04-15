@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include <fstream>
-#include "table.h"
+#include "../table.h"
 
 CTable Utilities::LoadBackground(const char * fileName)
 {
