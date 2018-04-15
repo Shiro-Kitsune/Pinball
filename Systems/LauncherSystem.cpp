@@ -1,9 +1,9 @@
 #include "stdafx.h"
 #include "LauncherSystem.h"
-#include "EntityManager.h"
-#include "LauncherComponent.h"
-#include "GameState.h"
-#include "Entity.h"
+#include "../EntityManager.h"
+#include "../Components/LauncherComponent.h"
+#include "../States/GameState.h"
+#include "../Entity.h"
 #include "Transform.h"
 
 void LauncherSystem::Update(float deltaTime, GameState & gameState)
