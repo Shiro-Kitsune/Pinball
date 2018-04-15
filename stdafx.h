@@ -22,6 +22,6 @@
 #include <typeindex>
 #include <optional>
 #include "App/app.h"
-#include "Color.h"
-#include "Vector2D.h"
-#include "Utilities.h"
+#include "Utility/Color.h"
+#include "Utility/Vector2D.h"
+#include "Utility/Utilities.h"
